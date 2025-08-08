@@ -1,0 +1,32 @@
+{
+  "name": "typescriptexercises",
+  "version": "1.0.0",
+  "description": "Doing exercises to help learn and deep into TypeScript",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "temp": "npx ts-node ./src/temp.ts",
+    "contacts": "npx ts-node ./src/contacts.ts",
+    "palindrome": "npx ts-node ./src/palindrome.ts",
+    "simdice": "npx ts-node ./src/simdice.ts",
+    "products": "npx ts-node ./src/products.ts",
+    "rps": "npx ts-node ./src/rps.ts",
+    "counter": "npx ts-node ./src/counter.ts",
+    "oddgen": "npx ts-node ./src/oddgen.ts",
+    "mersenne": "npx ts-node ./src/mersenne.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/prompt-sync": "^4.2.3",
+    "@types/readline-sync": "^1.4.8",
+    "prompt-sync": "^4.2.0",
+    "readline-sync": "^1.4.10",
+    "zod": "^4.0.5"
+  }
+}
